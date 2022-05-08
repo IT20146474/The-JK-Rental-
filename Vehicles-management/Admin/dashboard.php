@@ -10,7 +10,13 @@ else{
 	?>
 <!doctype html>
 <html lang="en" class="no-js">
-
+<style>
+body  {
+  background-image: url("DASH.jpg");
+  background-color: #8c8989;
+  background-size: 1600px;
+}
+</style>
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,7 +25,7 @@ else{
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
 
-	<title>THE JK RENTAL | Admin Edit Vehicle Info</title>
+	<title>THE JK RENTAL </title>
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -49,9 +55,9 @@ else{
 
 				<div class="row">
 					<div class="col-md-12">
-
-						<h2 class="page-title">Dashboard</h2>
-
+						<center>
+						<h2 class="page-title"> <b>Admin Dashboard</b></h2>
+</center>
 						<div class="row">
 							<div class="col-md-12">
 								<div class="row">
@@ -67,15 +73,15 @@ $results=$query->fetchAll(PDO::FETCH_OBJ);
 $regusers=$query->rowCount();
 ?>
 													<div class="stat-panel-number h1 "><?php echo htmlentities($regusers);?></div>
-													<div class="stat-panel-title text-uppercase">Reg Users</div>
+													<div class="stat-panel-title text-uppercase">Register Users</div>
 												</div>
 											</div>
-											<a href="reg-users.php" class="block-anchor panel-footer">Full Detail <i class="fa fa-arrow-right"></i></a>
+											<a href="reg-users.php "class="block-anchor panel-footer text-center">Full Detail <i class="fa fa-arrow-right"></i></a>
 										</div>
 									</div>
 									<div class="col-md-3">
 										<div class="panel panel-default">
-											<div class="panel-body bk-success text-light">
+											<div class="panel-body bk-primary text-light">
 												<div class="stat-panel text-center">
 												<?php
 $sql1 ="SELECT id from tblvehicles ";
@@ -93,7 +99,7 @@ $totalvehicle=$query1->rowCount();
 									</div>
 									<div class="col-md-3">
 										<div class="panel panel-default">
-											<div class="panel-body bk-info text-light">
+											<div class="panel-body bk-primary text-light">
 												<div class="stat-panel text-center">
 <?php
 $sql2 ="SELECT id from tblbooking ";
@@ -112,8 +118,9 @@ $bookings=$query2->rowCount();
 									</div>
 									<div class="col-md-3">
 										<div class="panel panel-default">
-											<div class="panel-body bk-warning text-light">
+											<div class="panel-body bk-primary text-light">
 												<div class="stat-panel text-center">
+
 <?php
 $sql3 ="SELECT id from tblbrands ";
 $query3= $dbh -> prepare($sql3);
@@ -147,42 +154,8 @@ $brands=$query3->rowCount();
 										<div class="panel panel-default">
 											<div class="panel-body bk-primary text-light">
 												<div class="stat-panel text-center">
-<?php
-$sql4 ="SELECT id from tblsubscribers ";
-$query4 = $dbh -> prepare($sql4);
-$query4->execute();
-$results4=$query4->fetchAll(PDO::FETCH_OBJ);
-$subscribers=$query4->rowCount();
-?>
-													<div class="stat-panel-number h1 "><?php echo htmlentities($subscribers);?></div>
-													<div class="stat-panel-title text-uppercase">Subscibers</div>
-												</div>
-											</div>
-											<a href="manage-subscribers.php" class="block-anchor panel-footer">Full Detail <i class="fa fa-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="col-md-3">
-										<div class="panel panel-default">
-											<div class="panel-body bk-success text-light">
-												<div class="stat-panel text-center">
-												<?php
-$sql6 ="SELECT id from tblcontactusquery ";
-$query6 = $dbh -> prepare($sql6);;
-$query6->execute();
-$results6=$query6->fetchAll(PDO::FETCH_OBJ);
-$query=$query6->rowCount();
-?>
-													<div class="stat-panel-number h1 "><?php echo htmlentities($query);?></div>
-													<div class="stat-panel-title text-uppercase">Queries</div>
-												</div>
-											</div>
-											<a href="manage-conactusquery.php" class="block-anchor panel-footer text-center">Full Detail &nbsp; <i class="fa fa-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="col-md-3">
-										<div class="panel panel-default">
-											<div class="panel-body bk-info text-light">
-												<div class="stat-panel text-center">
+
+
 <?php
 $sql5 ="SELECT id from tbltestimonial ";
 $query5= $dbh -> prepare($sql5);
@@ -192,7 +165,7 @@ $testimonials=$query5->rowCount();
 ?>
 
 													<div class="stat-panel-number h1 "><?php echo htmlentities($testimonials);?></div>
-													<div class="stat-panel-title text-uppercase">Testimonials</div>
+													<div class="stat-panel-title text-uppercase">Feedback</div>
 												</div>
 											</div>
 											<a href="testimonials.php" class="block-anchor panel-footer text-center">Full Detail &nbsp; <i class="fa fa-arrow-right"></i></a>
