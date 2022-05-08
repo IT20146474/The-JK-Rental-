@@ -1,0 +1,503 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/xampp/htdocs/bikerental/index.php",
+			"settings":
+			{
+				"buffer_size": 8099,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					22,
+					1,
+					"left_delete",
+					null,
+					"AQAAABoCAAAAAAAAGgIAAAAAAAALAAAAYXNzZXRzL2Nzcy8",
+					"AQAAAAAAAAABAAAAJQIAAAAAAAAaAgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"right_delete",
+					null,
+					"AQAAAE4bAAAAAAAAThsAAAAAAADxBAAAPCEtLVRlc3RpbW9uaWFsIC0tPgo8c2VjdGlvbiBjbGFzcz0ic2VjdGlvbi1wYWRkaW5nIHRlc3RpbW9uaWFsLXNlY3Rpb24gcGFyYWxsZXgtYmciPgogIDxkaXYgY2xhc3M9ImNvbnRhaW5lciBkaXZfemluZGV4Ij4KICAgIDxkaXYgY2xhc3M9InNlY3Rpb24taGVhZGVyIHdoaXRlLXRleHQgdGV4dC1jZW50ZXIiPgogICAgICA8aDI+T3VyIFNhdGlzZmllZCA8c3Bhbj5DdXN0b21lcidzIFJldmlldzwvc3Bhbj48L2gyPgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJyb3ciPgogICAgICA8ZGl2IGlkPSJ0ZXN0aW1vbmlhbC1zbGlkZXIiPgo8P3BocAokdGlkPTE7CiRzcWwgPSAiU0VMRUNUIHRibHRlc3RpbW9uaWFsLlRlc3RpbW9uaWFsLHRibHVzZXJzLkZ1bGxOYW1lIGZyb20gdGJsdGVzdGltb25pYWwgam9pbiB0Ymx1c2VycyBvbiB0Ymx0ZXN0aW1vbmlhbC5Vc2VyRW1haWw9dGJsdXNlcnMuRW1haWxJZCB3aGVyZSB0Ymx0ZXN0aW1vbmlhbC5zdGF0dXM9OnRpZCI7CiRxdWVyeSA9ICRkYmggLT4gcHJlcGFyZSgkc3FsKTsKJHF1ZXJ5LT5iaW5kUGFyYW0oJzp0aWQnLCR0aWQsIFBETzo6UEFSQU1fU1RSKTsKJHF1ZXJ5LT5leGVjdXRlKCk7CiRyZXN1bHRzPSRxdWVyeS0+ZmV0Y2hBbGwoUERPOjpGRVRDSF9PQkopOwokY250PTE7CmlmKCRxdWVyeS0+cm93Q291bnQoKSA+IDApCnsKZm9yZWFjaCgkcmVzdWx0cyBhcyAkcmVzdWx0KQp7ICA/PgoKCiAgICAgICAgPGRpdiBjbGFzcz0idGVzdGltb25pYWwtbSI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXN0aW1vbmlhbC1pbWciPiA8aW1nIHNyYz0iYXNzZXRzL2ltYWdlcy9jYXQtcHJvZmlsZS5wbmciIGFsdD0iIiAvPiA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9InRlc3RpbW9uaWFsLWNvbnRlbnQiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJ0ZXN0aW1vbmlhbC1oZWFkaW5nIj4KICAgICAgICAgICAgICA8aDU+PD9waHAgZWNobyBodG1sZW50aXRpZXMoJHJlc3VsdC0+RnVsbE5hbWUpOz8+PC9oNT4KICAgICAgICAgICAgPHA+PD9waHAgZWNobyBodG1sZW50aXRpZXMoJHJlc3VsdC0+VGVzdGltb25pYWwpOz8+PC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPD9waHAgfX0gPz4KCgoKICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICA8L2Rpdj4KICA8IS0tIERhcmsgT3ZlcmxheS0tPgogIDxkaXYgY2xhc3M9ImRhcmstb3ZlcmxheSI+PC9kaXY+Cjwvc2VjdGlvbj4KPCEtLSAvVGVzdGltb25pYWwtLT4",
+					"AQAAAAAAAAABAAAAPyAAAAAAAABOGwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					1,
+					"left_delete",
+					null,
+					"AQAAAFMXAAAAAAAAUxcAAAAAAAABAAAANA",
+					"AQAAAAAAAAABAAAAVBcAAAAAAABUFwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					29,
+					1,
+					"insert",
+					{
+						"characters": "1"
+					},
+					"AQAAAFMXAAAAAAAAVBcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAUxcAAAAAAABTFwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					30,
+					1,
+					"right_delete",
+					null,
+					"AQAAAFQXAAAAAAAAVBcAAAAAAAABAAAAMA",
+					"AQAAAAAAAAABAAAAVBcAAAAAAABUFwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					31,
+					1,
+					"insert",
+					{
+						"characters": "5"
+					},
+					"AQAAAFQXAAAAAAAAVRcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVBcAAAAAAABUFwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					41,
+					1,
+					"paste",
+					null,
+					"AgAAAH4YAAAAAAAAhRgAAAAAAAAAAAAAhRgAAAAAAACFGAAAAAAAAAUAAABCaWtlcw",
+					"AQAAAAAAAAABAAAAfhgAAAAAAACDGAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					44,
+					1,
+					"left_delete",
+					null,
+					"AQAAAH4YAAAAAAAAfhgAAAAAAAABAAAAdg",
+					"AQAAAAAAAAABAAAAfxgAAAAAAAB/GAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					45,
+					1,
+					"insert",
+					{
+						"characters": "V"
+					},
+					"AQAAAH4YAAAAAAAAfxgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAfhgAAAAAAAB+GAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					53,
+					1,
+					"left_delete",
+					null,
+					"AQAAAIYYAAAAAAAAhhgAAAAAAAAIAAAARm9yIFNhbGU",
+					"AQAAAAAAAAABAAAAjhgAAAAAAACGGAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					58,
+					1,
+					"paste",
+					null,
+					"AgAAAIgZAAAAAAAAjxkAAAAAAAAAAAAAjxkAAAAAAACPGQAAAAAAAAUAAABCaWtlcw",
+					"AQAAAAAAAAABAAAAiBkAAAAAAACNGQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					61,
+					1,
+					"insert",
+					{
+						"characters": "5"
+					},
+					"AgAAAGAYAAAAAAAAYRgAAAAAAAAAAAAAYRgAAAAAAABhGAAAAAAAAAIAAAAxMA",
+					"AQAAAAAAAAABAAAAYhgAAAAAAABgGAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "/C/xampp/htdocs/bikerental/assets/css/styles.css",
+			"settings":
+			{
+				"buffer_size": 98417,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					12,
+					1,
+					"paste",
+					null,
+					"AgAAAG1PAAAAAAAAcU8AAAAAAAAAAAAAcU8AAAAAAABxTwAAAAAAAAsAAABmcm9udC1pbWFnZQ",
+					"AQAAAAAAAAABAAAAbU8AAAAAAAB4TwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					31,
+					7,
+					"left_delete",
+					null,
+					"BwAAAGxPAAAAAAAAbE8AAAAAAAABAAAAL2tPAAAAAAAAa08AAAAAAAABAAAAc2pPAAAAAAAAak8AAAAAAAABAAAAZWlPAAAAAAAAaU8AAAAAAAABAAAAZ2hPAAAAAAAAaE8AAAAAAAABAAAAYWdPAAAAAAAAZ08AAAAAAAABAAAAbWZPAAAAAAAAZk8AAAAAAAABAAAAaQ",
+					"AQAAAAAAAAABAAAAbU8AAAAAAABtTwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					32,
+					3,
+					"left_delete",
+					null,
+					"AwAAAGVPAAAAAAAAZU8AAAAAAAABAAAAL2RPAAAAAAAAZE8AAAAAAAABAAAALmNPAAAAAAAAY08AAAAAAAABAAAALg",
+					"AQAAAAAAAAABAAAAZk8AAAAAAABmTwAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "/C/xampp/htdocs/bikerental/styles.css",
+			"settings":
+			{
+				"buffer_size": 96841,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					2,
+					1,
+					"insert",
+					{
+						"characters": "sq"
+					},
+					"AwAAACN0AAAAAAAAJHQAAAAAAAAAAAAAJHQAAAAAAAAkdAAAAAAAAAoAAABiY2tncmRiaWtlJHQAAAAAAAAldAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAI3QAAAAAAAAtdAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					10,
+					"left_delete",
+					null,
+					"CgAAACJ0AAAAAAAAInQAAAAAAAABAAAALyF0AAAAAAAAIXQAAAAAAAABAAAAcyB0AAAAAAAAIHQAAAAAAAABAAAAZR90AAAAAAAAH3QAAAAAAAABAAAAZx50AAAAAAAAHnQAAAAAAAABAAAAYR10AAAAAAAAHXQAAAAAAAABAAAAbRx0AAAAAAAAHHQAAAAAAAABAAAAaRt0AAAAAAAAG3QAAAAAAAABAAAALxp0AAAAAAAAGnQAAAAAAAABAAAALhl0AAAAAAAAGXQAAAAAAAABAAAALg",
+					"AQAAAAAAAAABAAAAI3QAAAAAAAAjdAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"cut",
+					null,
+					"AQAAAJlzAAAAAAAAmXMAAAAAAAAYBgAALyotLS0tLS0tLS0tLS0tLS0tLS0tLQoJMy44IFRlc3RpbW9uaWFsLVNlY3Rpb24KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0qLwoudGVzdGltb25pYWwtc2VjdGlvbiB7CiAgYmFja2dyb3VuZC1pbWFnZTogdXJsKCJzcS5qcGciKTsKfQoud2hpdGUtdGV4dCBoMiB7CiAgY29sb3I6ICNmZmZmZmY7Cn0KLnRlc3RpbW9uaWFsLW0gewogIHBhZGRpbmctbGVmdDogMjBweDsKICBwYWRkaW5nLXJpZ2h0OiAyMHB4OwogIHBvc2l0aW9uOiByZWxhdGl2ZTsKICB6LWluZGV4OiAxOwp9Ci50ZXN0aW1vbmlhbC1pbWcgewogIGJvcmRlcjogNXB4IHNvbGlkICNmZmZmZmY7CiAgYm9yZGVyLXJhZGl1czogNTAlOwogIGZsb2F0OiBsZWZ0OwogIGhlaWdodDogMjE1cHg7CiAgbGVmdDogMzBweDsKICBvdmVyZmxvdzogaGlkZGVuOwogIHBvc2l0aW9uOiBhYnNvbHV0ZTsKICB0b3A6IDQycHg7CiAgd2lkdGg6IDIxNXB4OwogIHotaW5kZXg6IDE7Cn0KLnRlc3RpbW9uaWFsLWltZyA+IGltZyB7CiAgbWF4LXdpZHRoOiAxMDAlOwp9Ci50ZXN0aW1vbmlhbC1jb250ZW50IHsKICBiYWNrZ3JvdW5kOiAjZmZmZmZmIG5vbmUgcmVwZWF0IHNjcm9sbCAwIDA7CiAgYm9yZGVyLXJhZGl1czogMCAzMHB4OwogIGZsb2F0OiByaWdodDsKICBwYWRkaW5nOiAzNXB4IDM1cHggMzVweCA5MnB4OwogIHBvc2l0aW9uOiByZWxhdGl2ZTsKICB3aWR0aDogNDI1cHg7Cn0KLnRlc3RpbW9uaWFsLWNvbnRlbnQ6OmFmdGVyIHsKICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDApIHVybCgiLi4vaW1hZ2VzL3Rlc3RpbW9uaWFsLWNvbnRlbnQtYmcuanBnIikgcmVwZWF0IHNjcm9sbCAwIDAgLyBjb3ZlciA7CiAgYm9yZGVyLXJhZGl1czogMCAzMHB4OwogIGNvbnRlbnQ6ICIiOwogIGhlaWdodDogMTAwJTsKICBsZWZ0OiAwOwogIG9wYWNpdHk6IDAuMjsKICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgcmlnaHQ6IDA7CiAgdG9wOiAwOwogIHdpZHRoOiAxMDAlOwp9Ci5jbGllbnQtZGVzaWduYXRpb24gewogIGNvbG9yOiAjNTU1NTU1OwogIGZvbnQtc2l6ZTogMTRweDsKfQoudGVzdGltb25pYWwtaGVhZGluZyB7CiAgbWFyZ2luLWJvdHRvbTogMzVweDsKICBwYWRkaW5nLWxlZnQ6IDExMHB4OwogIHBvc2l0aW9uOiByZWxhdGl2ZTsKfQoudGVzdGltb25pYWwtaGVhZGluZyBoNSB7CiAgbWFyZ2luOiAwIGF1dG87Cn0KLnRlc3RpbW9uaWFsLWhlYWRpbmc6OmFmdGVyIHsKICBjb250ZW50OiAi74SNIjsKICBmb250LWZhbWlseTogZm9udGF3ZXNvbWU7CiAgZm9udC1zaXplOiAxMDBweDsKICBsZWZ0OiAwOwogIGxpbmUtaGVpZ2h0OiAyOHB4OwogIHBvc2l0aW9uOiBhYnNvbHV0ZTsKICB0b3A6IDE1cHg7CiAgY29sb3I6cmdiYSgwLCAwLCAwLCAwLjEpOwp9Ci50ZXN0aW1vbmlhbC1jb250ZW50ID4gcCB7CiAgZm9udC1zaXplOiAxNHB4OwogIGxpbmUtaGVpZ2h0OiAyNHB4OwogIG1hcmdpbjogMCBhdXRvIDVweDsKICBwYWRkaW5nLWxlZnQ6IDM1cHg7Cn0KI3Rlc3RpbW9uaWFsLXNsaWRlciAub3dsLXBhZ2luYXRpb24gLm93bC1wYWdlIHsKCWJhY2tncm91bmQ6I2ZmZjsKfQoK",
+					"AQAAAAAAAAABAAAAr3kAAAAAAACZcwAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/bikerental/includes/sidebar.php",
+		"/C/xampp/htdocs/bikerental/my-booking.php",
+		"/C/xampp/htdocs/bikerental/includes/login.php",
+		"/C/xampp/htdocs/bikerental/vehical-details.php",
+		"/C/xampp/htdocs/bikerental/includes/registration.php",
+		"/C/xampp/htdocs/bikerental/index.php",
+		"/C/xampp/htdocs/bikerental/includes/header.php",
+		"/C/xampp/htdocs/bikerental/includes/forgotpassword.php",
+		"/C/xampp/htdocs/bikerental/includes/config.php",
+		"/C/xampp/htdocs/bikerental/includes/footer.php",
+		"/C/xampp/htdocs/bikerental/includes/colorswitcher.php",
+		"/C/xampp/htdocs/bikerental/admin/includes/config.php",
+		"/C/xampp/htdocs/bikerental/index0.php",
+		"/C/xampp/htdocs/bikerental/admin/manage-vehicles.php",
+		"/C/xampp/htdocs/bikerental/admin/includes/header.php",
+		"/C/xampp/htdocs/bikerental/admin/post-avehical.php",
+		"/C/xampp/htdocs/bikerental/admin/edit-vehicle.php",
+		"/C/xampp/htdocs/bikerental/admin/manage-bookings.php",
+		"/C/xampp/htdocs/bikerental/admin/css/awesome-bootstrap-checkbox.css",
+		"/C/xampp/htdocs/bikerental/admin/css/dataTables.bootstrap.min.css",
+		"/C/xampp/htdocs/bikerental/admin/css/bootstrap-select.css",
+		"/C/xampp/htdocs/bikerental/admin/css/bootstrap.min.css",
+		"/C/xampp/htdocs/bikerental/admin/css/fileinput.min.css",
+		"/C/xampp/htdocs/bikerental/admin/css/style.css",
+		"/C/xampp/htdocs/bikerental/admin/css/bootstrap-social.css",
+		"/C/xampp/htdocs/bikerental/admin/css/datatables.min.css",
+		"/C/xampp/htdocs/bikerental/admin/css/font-awesome.min.css",
+		"/C/xampp/htdocs/bikerental/admin/css/jquery.dataTables.min.css",
+		"/C/xampp/htdocs/bikerental/admin/manage-brands.php",
+		"/C/xampp/htdocs/bikerental/admin/edit-brand.php",
+		"/C/xampp/htdocs/bikerental/admin/dashboard.php",
+		"/C/xampp/htdocs/bikerental/admin/change-password.php",
+		"/C/xampp/htdocs/bikerental/admin/create-brand.php",
+		"/C/xampp/htdocs/bikerental/admin/manage-subscribers.php",
+		"/C/xampp/htdocs/bikerental/admin/includes/leftbar.php",
+		"/C/xampp/htdocs/bikerental/admin/index.php",
+		"/C/xampp/htdocs/bikerental/admin/logout.php",
+		"/C/xampp/htdocs/bikerental/admin/manage-conactusquery.php",
+		"/C/xampp/htdocs/bikerental/admin/manage-pages.php",
+		"/C/xampp/htdocs/bikerental/admin/changeimage1.php"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bckgrdbike",
+			"front-image",
+			"img",
+			"image",
+			"front-image",
+			"form-group",
+			",\n",
+			"0",
+			"form-group",
+			"DEFAULT",
+			"form-group",
+			"default",
+			"btn btn-default"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/xampp/htdocs/bikerental/index.php",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8099,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6241,
+								6241
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2556.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/xampp/htdocs/bikerental/assets/css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 98417,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29731,
+								29741
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 27820.8,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/xampp/htdocs/bikerental/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 96841,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29593,
+								29593
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 28061.6,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.2
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "vars.sublime-project",
+	"replace":
+	{
+		"height": 51.2
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
