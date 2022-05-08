@@ -34,6 +34,16 @@ $query -> execute();
 
 $msg="Booking Successfully Confirmed";
 }
+if(isset($_GET['del']))
+{
+$id=$_GET['del'];
+$sql = "delete from tblbooking  WHERE id=:id";
+$query = $dbh->prepare($sql);
+$query -> bindParam(':id',$id, PDO::PARAM_STR);
+$query -> execute();
+$msg="Page data updated  successfully";
+
+}
 
 
  ?>
@@ -113,11 +123,10 @@ $msg="Booking Successfully Confirmed";
 										<th>#</th>
 											<th>Name</th>
 											<th>Vehicle</th>
-											<th>NIC</th>
-											<th>Date</th>
-											<th>Phone Number</th>
+											<th>From Date</th>
+											<th>To Date</th>
+											<th>Message</th>
 											<th>Status</th>
-											<th>Posting date</th>
 											<th>Action</th>
 										</tr>
 									</thead>
@@ -126,11 +135,10 @@ $msg="Booking Successfully Confirmed";
 										<th>#</th>
 										<th>Name</th>
 											<th>Vehicle</th>
-											<th>NIC</th>
-											<th>Date</th>
-											<th>Phone Number</th>
+											<th>From Date</th>
+											<th>To Date</th>
+											<th>Message</th>
 											<th>Status</th>
-											<th>Posting date</th>
 											<th>Action</th>
 										</tr>
 									</tfoot>
@@ -152,22 +160,11 @@ foreach($results as $result)
 											<td><?php echo htmlentities($result->FromDate);?></td>
 											<td><?php echo htmlentities($result->ToDate);?></td>
 											<td><?php echo htmlentities($result->message);?></td>
-											<td><?php
-if($result->Status==0)
-{
-echo htmlentities('Not Confirmed yet');
-} else if ($result->Status==1) {
-echo htmlentities('Confirmed');
-}
- else{
- 	echo htmlentities('Cancelled');
- }
-										?></td>
+											
+										
 											<td><?php echo htmlentities($result->PostingDate);?></td>
-										<td><a href="manage-bookings.php?aeid=<?php echo htmlentities($result->id);?>" onclick="return confirm('Do you really want to Confirm this booking ?')"><button  style="background-color:  #0000e6;  border: none;  color: white;  text-align: center;  text-decoration: none; display: inline-flex; border-radius: 4px; font-size: 14px;  margin: 4px 2px;  cursor: pointer;"class="btn btn-default" type="reset">Confirm</button> </a> <br>
-
-
-<a href="manage-bookings.php?eid=<?php echo htmlentities($result->id);?>" onclick="return confirm('Do you really want to Cancel this Booking ?')"> <button  style="background-color:  #cc0000;  border: none;  color: white;  text-align: center;  text-decoration: none; display: inline-flex; border-radius: 4px; font-size: 16px;  margin: 4px 2px;  cursor: pointer;"class="btn btn-default" type="reset">Cancel</button></a>
+										<td>
+<a href="bookings Delete.php?del=<?php echo $result->id;?>" onclick="return confirm('Do you want to delete');"><button style=  border: none;  color: white;  text-align: center;  text-decoration: none; display: inline-flex; border-radius: 4px; font-size: 16px;  margin: 4px 2px;  cursor: pointer;"class="btn btn-default" type="reset">Delete</button></a>
 </td>
 
 										</tr>

@@ -89,21 +89,10 @@ $msg="Booking Successfully Confirmed";
 </head>
 
 <body>
-	<?php include('includes/header.php');?>
-
-	<div class="ts-main-content">
-		<?php include('includes/leftbar.php');?>
-		<div class="content-wrapper">
-			<div class="container-fluid">
-
-				<div class="row">
-					<div class="col-md-12">
-
-						<h2 class="page-title">User Bookings Detils</h2>
 
 						<!-- Zero Configuration Table -->
 						<div class="panel panel-default">
-							<div class="panel-heading">Bookings Info</div>
+							
 							<div class="panel-body">
 							<?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php }
 				else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
@@ -113,27 +102,15 @@ $msg="Booking Successfully Confirmed";
 										<th>#</th>
 											<th>Name</th>
 											<th>Vehicle</th>
-											<th>NIC</th>
-											<th>Date</th>
-											<th>Phone Number</th>
+											<th>From Date</th>
+											<th>To Date</th>
+											<th>Message</th>
 											<th>Status</th>
 											<th>Posting date</th>
-											<th>Action</th>
+											<th></th>
 										</tr>
 									</thead>
-									<tfoot>
-										<tr>
-										<th>#</th>
-										<th>Name</th>
-											<th>Vehicle</th>
-											<th>NIC</th>
-											<th>Date</th>
-											<th>Phone Number</th>
-											<th>Status</th>
-											<th>Posting date</th>
-											<th>Action</th>
-										</tr>
-									</tfoot>
+									
 									<tbody>
 
 									<?php $sql = "SELECT tblusers.FullName,tblbrands.BrandName,tblvehicles.VehiclesTitle,tblbooking.FromDate,tblbooking.ToDate,tblbooking.message,tblbooking.VehicleId as vid,tblbooking.Status,tblbooking.PostingDate,tblbooking.id  from tblbooking join tblvehicles on tblvehicles.id=tblbooking.VehicleId join tblusers on tblusers.EmailId=tblbooking.userEmail join tblbrands on tblvehicles.VehiclesBrand=tblbrands.id  ";
@@ -164,10 +141,7 @@ echo htmlentities('Confirmed');
  }
 										?></td>
 											<td><?php echo htmlentities($result->PostingDate);?></td>
-										<td><a href="manage-bookings.php?aeid=<?php echo htmlentities($result->id);?>" onclick="return confirm('Do you really want to Confirm this booking ?')"><button  style="background-color:  #0000e6;  border: none;  color: white;  text-align: center;  text-decoration: none; display: inline-flex; border-radius: 4px; font-size: 14px;  margin: 4px 2px;  cursor: pointer;"class="btn btn-default" type="reset">Confirm</button> </a> <br>
-
-
-<a href="manage-bookings.php?eid=<?php echo htmlentities($result->id);?>" onclick="return confirm('Do you really want to Cancel this Booking ?')"> <button  style="background-color:  #cc0000;  border: none;  color: white;  text-align: center;  text-decoration: none; display: inline-flex; border-radius: 4px; font-size: 16px;  margin: 4px 2px;  cursor: pointer;"class="btn btn-default" type="reset">Cancel</button></a>
+										<td>
 </td>
 
 										</tr>
@@ -175,7 +149,30 @@ echo htmlentities('Confirmed');
 
 									</tbody>
 								</table>
-
+ <br><br><br>
+<button class="new" onclick="print()">Download Report</button>
+<br><br>
+<script>
+//Report convert to PDF
+function print(){
+	
+	var element = document.getElementById("list");
+	var opt = {
+	  margin:       1,
+	  filename:     'Customer Details.pdf',
+	  image:        { type: 'jpeg', quality: 0.98 },
+	  html2canvas:  { scale: 5 },
+	  jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+	  width:2,
+	  
+	};
+	 
+	// New Promise-based usage:
+	html2pdf().from(element).set(opt).save();
+	 
+	
+}
+</script>
 
 
 							</div>
